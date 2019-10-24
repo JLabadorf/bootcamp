@@ -1,31 +1,21 @@
-# Grade Book
+# Apples and Oranges
 
-One of the most common uses of Excel in the field of academia is keeping track of students' grades. In this activity, you and your partner will create a spreadsheet that averages out the scores of a fictional class's students, then determines whether each student has passed or failed the course.
+Apples and oranges are two completely different fruits whose data is being stored on two completely different worksheets, but who says that we cannot compare them anyway? In this activity, we will be taking two sheets of data and comparing their values against each other to determine which is the ultimate fruit!
 
 ## Instructions
 
-* Create a formula that calculates the final grade for a student based upon their previous exams and papers.
+1. In each of the Apples and Oranges worksheets, calculate the average values of the data contained in each column.
 
-* When making this calculation:
+2. Create a new worksheet which will be used to compare some of the characteristics of apples and oranges against each other.
 
-  * Every paper and exam should be considered equal in weight
+3. Create five columns with the headers 'Durability', 'Ease of Use', 'Taste', 'Juiciness', and 'Aerodynamics'. Then create three rows with the headers 'Apples', 'Oranges', and 'Winner'.
 
-  * Each one should comprise one-fourth of a student's overall grade
+4. Now that we have our basic table, pull in the averages data from the Apples and Oranges worksheets, placing them in their respective cells in our new worksheet.
 
-  * Round the result to the nearest integer
-
-* Using conditionals, create a formula that returns `PASS` if a student's final grade is greater than or equal to 60. If the student's final grade is below 60, your formula should return `FAIL`.
+5. Using a conditional formula, determine whether Apples or Oranges hold the greater average value per column and print which won in the 'Winner' row. In the case of a tie, give the edge to Oranges.
 
 ## Bonus
 
-* Create a nested `IF()` formula which returns a letter grade based on a student's final grade.
+1. Write a formula to determine the "overall" winner by counting which has the most wins. Again, Oranges wins in a tie.
 
-  * Greater than or equal to 90 = `A`
-  * Greater than or equal to 80 and less than 90 = `B`
-  * Greater than or equal to 70 and less than 80 = `C`
-  * Greater than or equal to 60 and less than 70 = `D`
-  * Anything less than 60 = `F`
-
-## Hints
-
-* In case you need some help with nested `IF()` statements in Excel, [Nest Formulas](https://support.office.com/en-us/article/IF-function-%E2%80%93-nested-formulas-and-avoiding-pitfalls-0b22ff44-f149-44ba-aeb5-4ef99da241c8) is a support article that goes over how to do so.
+2. Make another worksheet which calculates the averages in the new worksheet itself, as opposed to referencing the averages calculated in the Apples and Oranges worksheets.
